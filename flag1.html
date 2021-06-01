@@ -4,32 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flag level 2</title>
+    <title>flag level 3</title>
     <style>
-        div{
-            border:2px solid black;
-            padding:20px;
-            width:400px;
-        }
-        div:first-child{
-            background-color: orange;
-        }
-        div:nth-child(2){
-            background-color:white;
-        }
-        div:nth-child(3){
-            background-color: green;
-        }
+       
+#flag {
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    line-height: 50px;    
+    margin: 10px;
+    position: relative;
+    background: #fff;
+    border:2px solid black; 
+}
 
-        
-        </style>
+#flag:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background: orange;
+    width: 100%;
+    height:40px;
+    
+}
+
+#flag:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 10;
+    background: green;
+    width: 100%;
+    height:40px;
+
+}
+
+    </style>
 </head>
 <body>
     
-<!-- Level 2 - Empty Divs -->
-<div></div>
-<div></div>
-<div></div>
+<!-- Level 3 - Use only one div and get the flag -->
+<div id="flag"></div>
+
     
 </body>
 </html>
