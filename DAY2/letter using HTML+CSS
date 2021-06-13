@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LETTER with HTML-CSS</title>
+    <style>
+      .letter {
+        border: 2px solid red;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        background-color: darksalmon;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 20px;
+      }
+
+      .top {
+        border: 2px solid black;
+        border-radius: 8px;
+        margin: 5px;
+        padding: 8px;
+      }
+      .top:hover {
+        transform: scale(0.95);
+        transition-duration: 1.5s;
+      }
+
+      #here {
+        border: 2px solid black;
+
+        padding: 2px;
+        border-radius: 5px;
+        margin-left: 900px;
+        background-color: black;
+        color: wheat;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      #here:hover {
+        cursor: pointer;
+        color: lightblue;
+        opacity: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      Application Letter
+      <a id="here" target="_blank" href="https://www.devsnest.in/"
+        >Visit Devsnest</a
+      >
+    </div>
+    <div class="letter">
+      <br />
+      <div>
+        To the Dean,<br />Jabalpur Engineering College,<br />Jabalpur M.P
+      </div>
+      <div>P.N- 482002</div>
+      <br />
+      <div>Subject- Relaxation in the ongoing college classes.</div>
+      <br />
+      <div>30th May 2021</div>
+      <br />
+      <div>Respected Dean,</div>
+      <div>
+        This is to inform you that I have enrolled in a codecamp organized by
+        Devsnest Community (Devsnest is a peer learning community founded by the
+        alumns of NSIT DELHI, to help students learn the actual skills). The
+        community is really very helpful for me to learn new skills. I am
+        spending good time here in learning Data Structures and Algorithms, Web
+        development and problem solving skills and building some projects.
+        <br />
+        Thus, I request you to kindly grant me leave for somedays from the
+        ongoing online college classes. I'll cover all the syllabus done upto
+        this week.<br />
+        I would be highly obliged by this relaxation.
+      </div>
+      <br />
+      <div>
+        Thank You<br />
+        Yours sincerely,<br />Ritika Sharma<br />Information technolgy
+        department.
+      </div>
+    </div>
+  </body>
+</html>
