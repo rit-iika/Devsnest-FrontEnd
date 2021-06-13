@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple letter</title>
+  </head>
+  <body>
+    <br />
+
+    <div>To The Dean,<br />Jabalpur Engineering College,<br />Jabalpur M.P</div>
+    <div>P.N- 482002</div>
+    <br />
+    <div>subject- Relaxation in the ongoing college classes.</div>
+    <br />
+    <div>30th May 2021</div>
+    <br />
+
+    <div>Respected Dean,</div>
+    <div>
+      This is to inform you that I have enrolled in a 30 days codecamp organized
+      by Devsnest Community (Devsnest is a peer learning community founded by
+      the alumns of NSIT DELHI, to help students learn the actual skills.
+      <a href="https://www.devsnest.in/">(visit here) </a>). The community is
+      really very helpful for me to learn new skills. I am spending good time
+      here in learning Data Structures and Algorithms, Web development and
+      problem solving skills and building some projects.<br />
+      Thus, I request you to kindly grant me leave for somedays from the ongoing
+      online college classes. I'll cover all the syllabus done upto this
+      week.<br />
+      I would be highly obliged by this relaxation.
+    </div>
+    <br />
+    <div>
+      Thank You<br />
+      Yours sincerely,<br />Ritika Sharma<br />Fouth semester<br />Information
+      technolgy department.
+    </div>
+  </body>
+</html>
