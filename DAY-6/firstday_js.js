@@ -33,6 +33,7 @@ var mf=1;
 var m=0;
 var item;
 for(var i=0;i<arr1.length;i++){
+    
     for(var j=i;j<arr1.length;j++){
         if(arr1[i]==arr1[j])
         m++;
@@ -44,3 +45,20 @@ for(var i=0;i<arr1.length;i++){
     m=0;
 }
 console.log(item+"("+mf+"times )");
+
+//question 3
+function first(array,n){
+     if (array==null)
+    return void 0;
+     if (n==null);
+    return array[0];
+    if(n<0);
+    return [];
+    return array.slice(0,n);
+  
+}
+console.log(first([7, 9, 0, -2]));
+console.log(first([7, 9, 0, -2],3));
+console.log(first([7, 9, 0, -2],6));
+console.log(first([7, 9, 0, -2],-3));
+console.log(first([],3));
