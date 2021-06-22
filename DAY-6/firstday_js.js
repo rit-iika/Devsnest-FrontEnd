@@ -8,6 +8,15 @@ console.log(is_array([1,2,4,0]));
 console.log(is_array('w3resource'));
 
 
+//question 2
+function array_Clone(Array){
+    const ans= Array;
+    return ans;
+
+}
+console.log(array_Clone([1,2,4,0]));
+console.log(array_Clone([1,2,[4,0]]));
+
 
 //question 4
 var myColor=["Red","Green","White","Black"];
