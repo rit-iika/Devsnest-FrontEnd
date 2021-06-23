@@ -8,3 +8,7 @@ console.log(student2);
 //to delete roll no 
 delete student2.rollno;
 console.log(student2);
+
+//question 3
+var student3 = { name : "David Rayy", sclass : "VI", rollno : 12 }; 
+console.log(Object.keys(student3).length);
