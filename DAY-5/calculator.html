@@ -1,1 +1,130 @@
 <!-- calculator -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <script src="calci.js"> </script>
+    <style>
+    body{
+            background: #C7CEEA;
+            margin:0px;
+            padding:0px;
+        }
+    .box{  
+            margin:2rem auto;
+            border:2px solid black;
+            height: 30rem;
+    width: 23rem;
+    background-color:#1c2841;
+     /* #30303b; */
+    
+
+        }
+    input[type="text"]{
+          background-color:#ffff33;
+    height: 8rem;
+    width: 95.7%;
+    opacity: 0.7;
+    /* margin: 2px; */
+    font-size: 40px;
+    padding:7px;
+    text-align: center;
+
+        }
+        
+    input[type="button"]{   
+           background-color: #233251;
+           /* #3c3c4a; */
+    color: black;
+    /* border: solid black 1px; */
+    border:none;
+    height: 62px;
+    width: 129px;
+    margin: 1px;
+    font-size: 28px;
+    color: silver;}
+
+     
+    .bar{
+            display: flex;
+            background-color: #202938; 
+            /* #3c3c4a; */
+            padding:5px;
+            border-radius: 43px;
+    margin: 5px;
+        }
+     #op{
+          padding: 2px;
+    margin: 2px;
+    height: 66px;
+    border-radius: 50%;
+
+}
+    .box2{
+  /* border:2px solid black; */
+}
+    input[type="button"]:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  opacity:0.5;
+  color:white;
+}
+    #op1{
+  padding: 2px;
+    margin: 2px;
+    height: 66px;
+    border-radius: 50%;
+
+}
+    #op1:hover{
+  background-color:#ffff33 ;
+  color:#233251;
+}
+      </style>
+      
+      <body>
+        <div class="box">
+          <input type="text" name="result" id="result">
+        
+        <div class="bar">
+                    
+          <input type="button" value="+" id="op" onclick="dis('+')"/> 
+          <input type="button" value="-" id="op" onclick="dis('-')"/>
+          <input type="button" value="=" id="op1" onclick="solve()"/>
+          <input type="button" value="×" id="op" onclick="dis('*')"/> 
+          <input type="button" value="÷" id="op" onclick="dis('/')"/>
+    
+        </div>
+
+        <div class="box2">
+          <table>
+          <tr>
+          <td><input type="button" value="1" onclick="dis('1')"/> </td>
+          <td><input type="button" value="2" onclick="dis('2')"/> </td>
+          <td><input type="button" value="3" onclick="dis('3')"/> </td>
+          </tr>
+          <tr>
+              <td><input type="button" value="4" onclick="dis('4')"/> </td>
+              <td><input type="button" value="5" onclick="dis('5')"/> </td>
+              <td><input type="button" value="6" onclick="dis('6')"/> </td>
+          </tr>
+          <tr>
+              <td><input type="button" value="7" onclick="dis('7')"/> </td>
+              <td><input type="button" value="8" onclick="dis('8')"/> </td>
+              <td><input type="button" value="9" onclick="dis('9')"/> </td>
+          </tr>
+          <tr>
+             
+              <td><input type="button" value="." onclick="dis('.')"/> </td>
+              <td><input type="button" value="0" onclick="dis('0')"/> </td>
+              <td><input type="button" value="C" onclick="clr()"/> </td>
+          </tr>
+          </div>
+  </table>
+</div>
+   
+  </body>
+</html>
