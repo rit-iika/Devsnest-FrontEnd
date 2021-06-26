@@ -18,3 +18,14 @@ var library = [ { author: 'Bill Gates', title: 'The Road Ahead', readingStatus: 
 console.log(Object.values(library[0]));
 console.log(Object.values(library[1]));
 console.log(Object.values(library[2]));
+
+//question 5
+class Vol {
+    constructor(rad, height) {
+      this.rad = rad;
+      this.height = height;
+     console.log("volume of your cylinder is: ",3.141*rad*rad*height);
+    }
+  }
+  let vol1= new Vol(2,5);
+  let vol2= new Vol(1,2);
