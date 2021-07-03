@@ -1,0 +1,39 @@
+body{
+    background-color: lightpink;
+}
+.container{
+    background-image: url('manouchehr-hejazi-QeoXkIesiCo-unsplash.jpg');
+    background-size: 1200px 700px;
+    margin:30px auto;
+    border:2px solid red;
+    background-color: rgb(237, 217, 220);
+    height:500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:50%;
+}
+input{
+    height:35px;
+    width:400px;
+    text-align: center;
+}
+button{
+    height:45px;
+    border:2px solid black;
+    border-radius: 9px;
+}
+button:hover{
+    cursor: pointer;
+
+}
+h2{
+    font-family: 'Otomanopee One', sans-serif;
+    letter-spacing: 0.1em;
+    color:white;
+}
+.todolist{
+    /* border:2px solid black; */
+    margin-top: 20px;
+    color:white;
+}
