@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 205);
+}
+.head{
+    color:black;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 30px;
+    height:80px;
+    margin:0px;
+    padding:0px;
+}
+.top{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+     font-family:  'Yomogi';
+     padding:6px;
+     justify-content: center;
+}
+.remaining{
+    /* border:2px solid blue; */
+    margin-right: 20px;
+    font-size: 30px;
+    font-family:  'Yomogi';
+    font-weight: bold;
+}
+.booked{
+    
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight:bold;
+    font-family:  'Yomogi';
+}
+
+.containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 584px;
+    width: 990px;
+    margin: 50px auto 0px auto;
+    
+}
+.seatclick{
+    
+    background-color:rgb(107, 1, 1);
+}
+.seatclick:hover{
+    opacity: 0.8;
+     cursor:cell;
+}
+.seat{
+    box-shadow: 0px 0px 5px 3px;
+     border:2px solid black;
+     /* background-color: darkcyan; */
+    
+}
