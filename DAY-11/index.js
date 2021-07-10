@@ -89,7 +89,6 @@ var wrong = 0;
 var x = 0;
 // console.log(correct,wrong,x);
 for (let j = 0; j < 4; j++) {
-    
     btn[j].addEventListener('click', (stop) => {
         if (btn[j].innerHTML == my_list[x].answer.innerHTML) {
             my_list[x].answer.innerHTML = 'CORRECT ANSWER';
