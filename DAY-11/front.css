@@ -1,0 +1,44 @@
+body{
+    background-color: burlywood;
+}
+.container{
+    /* border:2px solid red; */
+    justify-content: center;
+    padding:5px ;
+    display: grid;
+    /* height: 500px; */
+    width: 650px;
+    background-color:rgb(5, 5, 90);
+    color: white;
+    margin: 10px auto;
+    grid-template-rows: 4fr 1fr;
+    opacity:0.89;
+    font-family: 'Zen Loop', cursive;
+    font-size: 40px;
+    letter-spacing: 0.09em;
+}
+.box{
+    /* margin:10px auto; */
+    width:100%;
+    text-align: center;
+ padding:2px;
+}
+button{
+    text-decoration: none;
+    padding:20px;
+        text-align: center;
+        background-color: beige;
+        color:black;
+        font-family: 'Oswald', sans-serif;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+button:hover{
+    cursor:pointer;
+}
