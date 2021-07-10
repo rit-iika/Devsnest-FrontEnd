@@ -25,59 +25,59 @@ var my_list =
         answer: document.querySelector('.ans1')
     },
     {
-        QUESTION: "Name russian vaccine used in India?",
-        OPTION1: "Covaxin",
-        OPTION2: "Covishield",
-        OPTION3: "Phyzer",
-        OPTION4: "Sputnik",
+        QUESTION: "Which is highest civilian award in india?",
+        OPTION1: "Arjun award",
+        OPTION2: "Padma vibhushan",
+        OPTION3: "Padma bhushan",
+        OPTION4: "Bharat Ratna",
         answer: document.querySelector('.ans4')
     },
     {
-        QUESTION: "Which country won 2020 Euro league?",
-        OPTION1: "France",
-        OPTION2: "Italy",
-        OPTION3: "Portugal",
-        OPTION4: "Germany",
+        QUESTION: "Who was India's first female governor?",
+        OPTION1: "Indira gandhi",
+        OPTION2: "Sushma swaraj",
+        OPTION3: "Sarojini Naidu",
+        OPTION4: "Savitri bai phule",
         answer: document.querySelector('.ans3')
     },
     {
-        QUESTION: "Messi has won how many ballon'd'or titles?",
-        OPTION1: "5",
-        OPTION2: "7",
-        OPTION3: "6",
-        OPTION4: "4",
-        answer: document.querySelector('.ans3')
-    },
-    {
-        QUESTION: "What is the largest country in the world?",
-        OPTION1: "Chicago",
-        OPTION2: "China",
-        OPTION3: "Russia",
-        OPTION4: "New York",
-        answer: document.querySelector('.ans3')
-    },
-    {
-        QUESTION: "Which planet is closest to the sun?",
-        OPTION1: "Mercury",
-        OPTION2: "Venus",
-        OPTION3: "Earth",
-        OPTION4: "Mars",
-        answer: document.querySelector('.ans1')
-    },
-    {
-        QUESTION: "Who came second in the FIFA Women's World Cup in 2019?",
-        OPTION1: "USA",
-        OPTION2: "Netherlands",
-        OPTION3: "Sweden",
-        OPTION4: "England",
+        QUESTION: "When is India army day celebrated?",
+        OPTION1: "15 august",
+        OPTION2: "15 january",
+        OPTION3: "6 april",
+        OPTION4: "14 october",
         answer: document.querySelector('.ans2')
     },
     {
-        QUESTION: "Who came second in the FIFA Women's World Cup in 2019?",
-        OPTION1: "USA",
-        OPTION2: "Netherlands",
-        OPTION3: "Sweden",
-        OPTION4: "England",
+        QUESTION: "Which is largest forest state in india?",
+        OPTION1: "Jharkhand",
+        OPTION2: "Madhya pradesh",
+        OPTION3: "Rajasthan",
+        OPTION4: "Tripura",
+        answer: document.querySelector('.ans2')
+    },
+    {
+        QUESTION: "India's largest dam is?",
+        OPTION1: "Tehri Dam",
+        OPTION2: "Bhakra Dam",
+        OPTION3: "Lakhwar Dam",
+        OPTION4: "Sardar Sarover dam",
+        answer: document.querySelector('.ans1')
+    },
+    {
+        QUESTION: "How many times india won world cup?",
+        OPTION1: "3",
+        OPTION2: "2",
+        OPTION3: "4",
+        OPTION4: "1",
+        answer: document.querySelector('.ans2')
+    },
+    {
+        QUESTION: "India's first supercomputer is?",
+        OPTION1: "PARAM Siddhi-AI",
+        OPTION2: "Param Shivay",
+        OPTION3: "Shivay-II",
+        OPTION4: " Mihir",
         answer: document.querySelector('.ans2')
     },
    
@@ -129,10 +129,6 @@ next.addEventListener('click',()=>{
         question.innerHTML = `YOUR TOTAL SCORE ${correct + wrong} out of 10`;
         ans1.innerHTML = `Total Correct points = ${correct} `;
         ans2.innerHTML = `Total Wrong points = ${wrong} `;
-        // ans3.style.backgroundColor = "white";
-        // ans3.style.backgroundColor = "2px solid white";
-        // ans4.style.backgroundColor = "white";
-        // ans4.style.backgroundColor = "2px solid white";
         ans4.style.display='none';
         ans3.style.display='none';
         ans3.style.visibility='hidden';
@@ -145,6 +141,7 @@ next.addEventListener('click',()=>{
 
 previous.addEventListener('click',()=>{
     if(x>0){
+        
         x -= 1;
     question.innerHTML = my_list[x].QUESTION;
     ans1.innerHTML = my_list[x].OPTION1;
@@ -159,6 +156,7 @@ previous.addEventListener('click',()=>{
     ans4.style.color = "white";
     }
     else if(x == 0){
+        
         window.location = "http://127.0.0.1:5502/Quiz/front.html";
     }
 });
