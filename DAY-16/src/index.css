@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: coral;
+}
+
+.app{
+    color:blue;
+    height:100vh;
+    width:100vw;
+    display:flex;
+}
+.card
+{
+    border:2px solid blue;
+    color:red;
+    padding:10px;
+    display: inline-block;
+    margin:10px auto;
+    width:500px;
+}
+.card img{
+    height:500px;
+    width:500px;
+
+}
