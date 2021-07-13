@@ -14,6 +14,6 @@ function even(){
 	<White>
 </div>
 
-	);
+);
 }
 export default even;
