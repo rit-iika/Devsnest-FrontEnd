@@ -15,19 +15,15 @@ function App() {
     <h1>CALORIE READ ONLY</h1>
     
     <div className="container">
-      <Block name = "PIZZA" number = "150"/>
-      <Block name = "PAV BHAJI" number = "250"/>
-      <Block name = "NOODLES" number = "120"/>
-      <Block name = "WAFFLES" number = "80"/>
-      <Block name = "MOMOS" number = "50"/>
-      <Block name = "CAKES" number = "180"/>
-    </div>
+  <card title= "PIZZA" calorie="150"/>
+  <card title="PAV BHAJI" calorie="250"/>
+  <card title="NOODLES" calorie="120"/>
+  <card title="WAFFLES" calorie="80"/>
+  <card title="MOMOS" calorie="50"/>
+  <card title="CAKES" calorie="180"/>    
 
+    </div>
     </div>
     );
  
   }
-  
-
-
-export default App;
