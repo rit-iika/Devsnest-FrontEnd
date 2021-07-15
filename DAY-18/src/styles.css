@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightpink;
+  /* border: 2px solid black; */
+}
+h4 {
+  text-align: center;
+  font-size: 40px;
+}
+h4:hover {
+  letter-spacing: 0.3em;
+  text-shadow: 1px 0 8px #b19cd9;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  border: 20px solid #ffd1dc;
+  padding: 10px;
+  margin: 0px auto;
+  height: 100vh;
+}
+
+.cell {
+  border: 1px solid black;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+.board {
+  width: 280px;
+  height: 280px;
+  margin: 50px auto;
+  line-height: 0;
+  box-sizing: content-box;
+  border: 27px solid rgba(0, 0, 0, 0.89);
+  border-radius: 10px;
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
