@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: rgb(100,230,0);
+ }
+.App{
+	margin:120px auto;
+	border:2px solid grey;
+	padding:6px;
+	height:500px;
+
+}
+.instructions{
+	display: inline-block;
+    width: 500px;
+    text-align: center;
+    background-color: white;
+
+}
+.instructions li{
+	text-align: left;
+	color:black;
+	
+}
+.container{
+	overflow: scroll;
+
+}
+.card{
+	height:120px;
+	width:500px;
+	border:2px solid black;
+	border-radius: 8px;
+	display: inline-block;
+}
+
+
+
+
+
