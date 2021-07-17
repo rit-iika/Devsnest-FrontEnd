@@ -1,4 +1,4 @@
-//using State hook ,which returns current state of varibale
+//using State hook ,which returns current state of varibles
 import { useState } from "react";
 
 var Box = () => {
