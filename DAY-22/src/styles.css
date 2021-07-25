@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid black;
+  /* border-radius: 12px; */
+  padding: 4px;
+  background-color: #aec6cf;
+  margin: 6px auto;
+}
+h1 {
+  letter-spacing: 0.1em;
+  font-family: "Otomanopee One", sans-serif;
+}
+.template {
+  /* height: 600px; */
+  width: 33.333%;
+  display: inline-block;
+  border: 15px solid transparent;
+}
+.template .image {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+
+  /* margin: 5px; */
+}
+.singlememe {
+  text-align: center;
+  margin: 5px;
+}
+.singlememe img {
+  height: 400px;
+  margin: 3px;
+}
+.singlememe input {
+  margin: 7px;
+  padding: 9px;
+  border: 1px solid black;
+  border-radius: 12px;
+  text-align: center;
+}
+.singlememe button {
+  padding: 8px;
+  margin: 5px;
+  cursor: cell;
+}
