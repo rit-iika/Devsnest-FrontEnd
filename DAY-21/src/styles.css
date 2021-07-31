@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+}
+button {
+  padding: 8px;
+}
+.show {
+  border: 1px solid black;
+  margin: 5px auto;
+  padding: 9px;
+  width: 50%;
+}
+.show button {
+  margin: 4px;
+}
+#del {
+  background-color: red;
+  color: white;
+}
+#ed {
+  background-color: blue;
+  color: white;
+}
