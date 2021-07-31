@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+nav {
+  /* border: 2px solid black; */
+  background-color: lavender;
+  margin: 10px auto;
+}
+.home {
+  padding: 10px;
+  text-align: center;
+}
+.profile {
+  padding: 10px;
+  text-align: center;
+}
+.about {
+  padding: 10px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+}
+li {
+  margin: 12px auto;
+  color: black;
+  font-weight: bold;
+}
