@@ -1,0 +1,53 @@
+body {
+  align-items: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 70%;
+  margin: 20px auto;
+  background-color: burlywood;
+  font-family: "Style Script", cursive;
+  letter-spacing: 0.07rem;
+  font-weight: bold;
+}
+input,
+button {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Style Script", cursive;
+}
+button:hover {
+  cursor: cell;
+}
+.box1 {
+  /* border: 1px solid red; */
+  margin: 20px auto;
+  width: 70%;
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Style Script", cursive;
+}
+.box2 {
+  /* border: 1px solid blue; */
+  margin: 2px auto;
+  width: 70%;
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Style Script", cursive;
+}
+.look {
+  /* border: 1px solid black; */
+  margin: 5px auto;
+  padding: 0px;
+  /* height: 80px; */
+  text-align: center;
+}
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
